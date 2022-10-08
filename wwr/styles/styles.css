@@ -98,7 +98,6 @@
   } 
   footer p {
     font-size: 1.2em;
-    text-decoration: underline;
     color: white;
   } 
   footer p a {
@@ -110,7 +109,7 @@
     text-align: center;
     background-color: #00b0b2;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
   }   
   
   /*---------------------------------------------------------------------------------------------*/
@@ -121,9 +120,6 @@
   /*---------------------------------------------------------------------------------------------*/
   /*general tags*/
   /*---------------------------------------------------------------------------------------------*/
-  a {
-    text-align: center;
-  } 
   
   #content {
     max-width: 1800px;
