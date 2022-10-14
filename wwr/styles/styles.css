@@ -1,3 +1,5 @@
+   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
+  
   /*---------------------------------------------------------------------------------------------*/
   /*Heater and nav*/
   /*---------------------------------------------------------------------------------------------*/
@@ -6,25 +8,38 @@
   }
   body{
     background-color: white;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  #logo_link{
+    padding-top: 5px;
   }
   .logo {
     width: 80px;
+    padding: 35px;
   }
   nav {
     background-color:#3f647e;
     text-decoration: none;
     color: #d9d9d9;
+    
   }
   nav >a{
     text-align: center;
     text-decoration: none;
     color: #d9d9d9;
+    padding: 35px;
+    
   }
   nav a:hover{
     text-align: center;
     background-color: #00b0b2;
     color: white;
     text-decoration: none;
+    padding: 35px;
+    
   }
   /*---------------------------------------------------------------------------------------------*/
   
@@ -36,24 +51,44 @@
   #hero-msg {
     text-align: center;
   }
+  .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+  }
   #hero-img {
     width: 100%;
   }
   .button-box {
     text-align: center;
     background-color: white;
+    margin: 30px;
+   
   }
   .book{
     text-align: center;
     text-decoration: none;
     background-color: #3f647e;
     color: #d9d9d9;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
   }
   .book:hover{
     text-align: center;
     background-color: #00b0b2;
     color: white;
     text-decoration: none;
+  }
+  .camping-card{
+    margin: 200px 0;
+  }
+  .rivers-card{
+    margin: 200px 0;
+  }
+  .rapids-card{
+    margin: 200px 0;
   }
   /*---------------------------------------------------------------------------------------------*/
   
@@ -65,25 +100,47 @@
   main section{
     text-align: center;
   }
+  main section img {
+    box-sizing: border-box;
+  }
   .home-grid {
     background-color: #d9d9d9 ;
   }
   .icon {
     width: 80px;
+    padding-top: 10px;
+  }
+  .card-img{
+    border:10px solid black;
   }
   .msg {
     background-color: #3f647e;
+    font-family: 'Merriweather', 'Bradley Hand', sans-serif;
+    font-size: .8em;
+    padding: 35px;
   }
   .join{
     text-align: center;
     text-decoration: none;
     color: #d9d9d9;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
   .join:hover{
     text-align: center;
     background-color: #00b0b2;
     color: white;
     text-decoration: none;
+  }
+  .mountains{
+    margin: 200px 0;
+  }
+  .msg p{
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
   }
   
   /*---------------------------------------------------------------------------------------------*/
@@ -95,7 +152,10 @@
   /*---------------------------------------------------------------------------------------------*/
   footer {
     background-color: #3f647e;
+    padding: 25px 50px;
+    margin-top: 200px;
   } 
+
   footer p {
     font-size: 1.2em;
     color: white;
@@ -110,7 +170,10 @@
     background-color: #00b0b2;
     color: white;
     text-decoration: underline;
-  }   
+  } 
+  footer .social img {
+    padding-top: 15px;
+  }  
   
   /*---------------------------------------------------------------------------------------------*/
  
@@ -130,7 +193,19 @@
     height: 725px;
     background-color: #FF9F00;
   }
-  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Bradley Hand", sans-serif;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    font-family: "Merriweather", "Bradley Hand", sans-serif;
+    font-size: .8em;
+  }
+  footer .social img {
+    padding-top: 15px;
+  }
  
   
   
