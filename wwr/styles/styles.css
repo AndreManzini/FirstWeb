@@ -1,10 +1,23 @@
    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
   
+
   /*---------------------------------------------------------------------------------------------*/
-  /*Heater and nav*/
+  /*general tags*/
   /*---------------------------------------------------------------------------------------------*/
-  header{
-    background-color: #3f647e;
+  
+  #content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Bradley Hand", sans-serif;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    font-family: "Merriweather", "Bradley Hand", sans-serif;
+    font-size: .8em;
   }
   body{
     background-color: white;
@@ -13,6 +26,17 @@
     margin: 0;
     padding: 0;
   }
+  /*---------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+  /*---------------------------------------------------------------------------------------------*/
+  /*Heater and nav*/
+  /*---------------------------------------------------------------------------------------------*/
+  header{
+    background-color: #3f647e;
+  }
+  
   #logo_link{
     padding-top: 5px;
   }
@@ -26,7 +50,7 @@
     color: #d9d9d9;
     
   }
-  nav >a{
+  nav a{
     text-align: center;
     text-decoration: none;
     color: #d9d9d9;
@@ -81,15 +105,10 @@
     color: white;
     text-decoration: none;
   }
-  .camping-card{
+  .camping-card, .rivers-card, .rapids-card{
     margin: 200px 0;
   }
-  .rivers-card{
-    margin: 200px 0;
-  }
-  .rapids-card{
-    margin: 200px 0;
-  }
+ 
   /*---------------------------------------------------------------------------------------------*/
   
 
@@ -142,6 +161,10 @@
     font-size: .8em;
     padding-bottom: 15px;
   }
+  #background {
+    height: 725px;
+    background-color: #FF9F00;
+  }
   
   /*---------------------------------------------------------------------------------------------*/
   
@@ -180,33 +203,7 @@
 
 
 
-  /*---------------------------------------------------------------------------------------------*/
-  /*general tags*/
-  /*---------------------------------------------------------------------------------------------*/
   
-  #content {
-    max-width: 1800px;
-    margin: 0 auto;
-  }
-
-  #background {
-    height: 725px;
-    background-color: #FF9F00;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", "Bradley Hand", sans-serif;
-  }
-  h2 {
-    margin: 0;
-  }
-  p {
-    font-family: "Merriweather", "Bradley Hand", sans-serif;
-    font-size: .8em;
-  }
-  footer .social img {
-    padding-top: 15px;
-  }
- 
   
   
   
