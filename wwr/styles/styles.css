@@ -139,12 +139,13 @@
 
 
   /*---------------------------------------------------------------------------------------------*/
-  /*main/ section / background*/
+  /*main/ section / background* hh/
   /*---------------------------------------------------------------------------------------------*/
   
   .home-grid{
     display: grid;
     grid-template-columns:repeat(10, 1fr);
+
   }
   main section{
     text-align: center;
