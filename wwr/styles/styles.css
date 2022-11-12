@@ -255,10 +255,107 @@
     color: white;
     text-decoration: underline;
   } 
+  
   footer .social img {
     padding-top: 15px;
   }  
   
+  /*---------------------------------------------------------------------------------------------*/
+  /*river-hero-box*/
+  /*---------------------------------------------------------------------------------------------*/
+  #hero-river{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+  #river-box{
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+  #river-img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  #River-msg{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    transition: transform .5s;
+  }
+  #River-msg:hover {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  .river-title{
+    color: #FF9F00;
+    text-align: center;
+    font-size:xx-large ;
+  }
+ 
+
+  /*---------------------------------------------------------------------------------------------*/
+  /*river-grid*/
+  /*---------------------------------------------------------------------------------------------*/
+  .river-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #d9d9d9;
+    margin-bottom: -200px;
+  }
+  .bear-card{
+    grid-column: 1/2;
+    padding: 8%;
+    grid-row: 1/2;
+  }
+  .river-messagem{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    padding: 1%;
+  }
+  .rapid-card{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 10%;
+    
+  }
+  .rapid-messagem{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    padding: 1%;
+  }
+  .view-card{
+    grid-column: 1/2;
+    padding: 8%;
+    grid-row: 3/4;
+  }
+  .view-messagem{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    padding: 1%;
+  }
+  .grand-card{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    padding: 10%;
+  }
+  .grand-messagem{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    padding: 1%;
+  }
   /*---------------------------------------------------------------------------------------------*/
  
   @media screen and (max-width: 900px) {
