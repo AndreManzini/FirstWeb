@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home italian food</title>
     <link type="text/css" rel="stylesheet" href="styles/stlyle.css">
+    <script src="styles/java.js"></script>
 </head>
 <body>
     <div id="content">
@@ -21,12 +22,26 @@
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/pepperoni.jpg" alt="food">
+                <div class="slideshow-container">
+                    <div class="mySlides fade" style="display: block;">
+                        <img id="hero-img" src="cheesemanicotti.jpg" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img id="hero-img" src="caesar.jpg"width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img id="hero-img" src="choppedantipasti.jpg" style="width:100%">
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
             </div>
             <div id="hero-msg">
                 <h2>Your new favority<br> italian food</h2>
-            </div>
-            <div class='artbox'> 
             </div>
         </div>
         <main class="home-grid">
