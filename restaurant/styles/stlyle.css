@@ -32,16 +32,10 @@ h4{
   font-size: 3pc;
   color: #362417 ;
 }
-p1{
+.paragraph1{
   font-family:Montserrat;
   color: #362417;
 }
-p2{
-  font-family: Montserrat;
-  color: #362417;
-  
-}
-
 /*---------------------------------------------------------------------------------------------*/
 /*Heater #362417     #92816a  #f1dabf  #fffbff                                                         */
 /*---------------------------------------------------------------------------------------------*/
@@ -96,7 +90,7 @@ nav a:hover{
   position: relative;
   margin: auto;
 }
-#hero-img{
+.hero-img{
     width: 100%;
     max-height: 500px;
     height: 100%;
@@ -291,6 +285,8 @@ nav a:hover{
     margin-right: auto;
   }
   .ingri{
+    font-family:Montserrat;
+    color: #362417;
     text-align: center;
     display: block;
     margin-block-start: 1em;
@@ -343,6 +339,8 @@ nav a:hover{
   grid-row: 1/2;
   }
   .mid-box{
+   font-family:Montserrat;
+   color: #362417;
    grid-column: 2/3;
    grid-row: 2/3;
    margin-bottom: 30px;
@@ -356,6 +354,8 @@ nav a:hover{
     justify-content: center;
   }
   .pbox{
+    font-family:Montserrat;
+    color: #362417;
     border-radius: 1%;
     width: 350px;
     height: 350px;
@@ -367,7 +367,7 @@ nav a:hover{
     margin: 0;
 
   }
-  #aboutus-img{
+  .aboutus-img{
     border-radius: 1%;
     width: 450px;
     height: 450px;
