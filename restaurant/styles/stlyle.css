@@ -36,6 +36,7 @@ h4{
   font-family:Montserrat;
   color: #362417;
 }
+
 /*---------------------------------------------------------------------------------------------*/
 /*Heater #362417     #92816a  #f1dabf  #fffbff                                                         */
 /*---------------------------------------------------------------------------------------------*/
@@ -46,7 +47,6 @@ header{
 }
 .logo{
     width: 100%;
-    column-count: 1/2;
     position: sticky;
     top: 0;
    
@@ -108,7 +108,7 @@ nav a:hover{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
